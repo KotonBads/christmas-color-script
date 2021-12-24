@@ -2,6 +2,7 @@
 import random
 
 # Colors
+black = "\033[30m"
 red = '\033[31m'
 green = "\033[32m"
 yellow = "\033[33m"
@@ -78,10 +79,21 @@ snowflake = """
       \/
 """
 
+# https://www.asciiart.eu/holiday-and-events/christmas/snowmen
+snowman = f"""
+{black}     __
+{black}   _|{red}=={black}|_  
+{white}    (''){yellow}___/
+{yellow}>--{white}(`^^')
+{white}  (`^'^'`)
+{white}  `======'
+"""
+
 merry_christmas = f"{red}{merry}{green}{christmas}"
 tree = f"{bold}{tree}"
 tree1 = f"{green}{bold}{tree1}"
 snowflake = f"{bold}{cyan}{snowflake}"
+snowman = f"{bold}{snowman}"
 
-choices = [merry_christmas, tree, tree1, snowflake]
+choices = [merry_christmas, tree, tree1, snowflake, snowman]
 print(random.choice(choices), end='')

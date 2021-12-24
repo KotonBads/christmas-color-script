@@ -19,3 +19,6 @@ Displays Christmas-themed ASCII art. This was mainly inspired by DistroTube's [S
 
 ## Snowman
 ![Snowman](images/Snowman.png)
+
+## Santa
+![Red Santa](images/Santa.png)

@@ -93,6 +93,17 @@ snowflake = """
       \/
 """
 
+santa = """
+                                      `}-'       `}-'
+ ___                    `}-' `}-'  ____/`-,  _____/`-,
+"-_/}__             `}-'_/`-, /`-,( _,,.{-,_(__,,,.(
+  [(_.-'`--,__   ____/`-,.(,-`}-'_,>___\/`-, >|`---\\
+  [(__\___\  _`-(--...(..-'_`./`-,/(--,,.(  //    / >
+  |_______/-'    >`---\ / (   `{    >`---\   
+  __|___|__)    / \  / \  /`--/<   / \   /|
+                         /  \/  \\
+"""
+
 # https://www.asciiart.eu/holiday-and-events/christmas/snowmen
 snowman = f"""
 {black}     __
@@ -109,6 +120,7 @@ tree = f"{bold}{tree}"
 tree1 = f"{green}{bold}{tree1}"
 snowflake = f"{bold}{cyan}{snowflake}"
 snowman = f"{bold}{snowman}"
+santa = f"{red}{bold}{santa}"
 
-choices = [merry_christmas, tree, tree1, snowflake, snowman, merry_christmas1]
+choices = [merry_christmas, tree, tree1, snowflake, snowman, merry_christmas1, santa]
 print(random.choice(choices), end='')

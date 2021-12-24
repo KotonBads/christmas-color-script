@@ -13,3 +13,6 @@ Displays Christmas-themed ASCII art. This was mainly inspired by DistroTube's [S
 
 ## Snowflake
 ![Snowflake](images/Snowflake.png)
+
+## Snowman
+![Snowman](images/Snowman.png)

@@ -93,7 +93,7 @@ snowflake = """
       \/
 """
 
-
+# https://ascii.co.uk/art/santa
 santa = """
                                       `}-'       `}-'
  ___                    `}-' `}-'  ____/`-,  _____/`-,
@@ -105,6 +105,7 @@ santa = """
                          /  \/  \\
 """
 
+# https://www.asciiart.eu/holiday-and-events/christmas/santa-claus
 santa_face = """
   .-""-.
  /,..___\\

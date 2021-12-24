@@ -33,6 +33,20 @@ christmas = """
 ╚██████╗██║  ██║██║  ██║██║███████║   ██║   ██║ ╚═╝ ██║██║  ██║███████║
  ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝   ╚═╝   ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝
 """
+merry1 = """
+███    ███ ███████ ██████  ██████  ██    ██ 
+████  ████ ██      ██   ██ ██   ██  ██  ██  
+██ ████ ██ █████   ██████  ██████    ████   
+██  ██  ██ ██      ██   ██ ██   ██    ██    
+██      ██ ███████ ██   ██ ██   ██    ██    
+"""
+christmas1 = """
+ ██████ ██   ██ ██████  ██ ███████ ████████ ███    ███  █████  ███████ 
+██      ██   ██ ██   ██ ██ ██         ██    ████  ████ ██   ██ ██      
+██      ███████ ██████  ██ ███████    ██    ██ ████ ██ ███████ ███████ 
+██      ██   ██ ██   ██ ██      ██    ██    ██  ██  ██ ██   ██      ██ 
+ ██████ ██   ██ ██   ██ ██ ███████    ██    ██      ██ ██   ██ ███████     
+"""
 
 # https://github.com/angelofallars/treefetch
 tree = f"""
@@ -90,10 +104,11 @@ snowman = f"""
 """
 
 merry_christmas = f"{red}{merry}{green}{christmas}"
+merry_christmas1 = f"{red}{merry1}{green}{christmas1}"
 tree = f"{bold}{tree}"
 tree1 = f"{green}{bold}{tree1}"
 snowflake = f"{bold}{cyan}{snowflake}"
 snowman = f"{bold}{snowman}"
 
-choices = [merry_christmas, tree, tree1, snowflake, snowman]
+choices = [merry_christmas, tree, tree1, snowflake, snowman, merry_christmas1]
 print(random.choice(choices), end='')

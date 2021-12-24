@@ -46,7 +46,7 @@ tree = f"""
        {yellow}||
 """
 
-# https://ascii.co.uk/art
+# https://ascii.co.uk/art/christmas
 tree1 = """
          ,' `  
         /.o `,    
@@ -66,7 +66,7 @@ tree1 = """
        --'  `--
 """
 
-# https://ascii.co.uk/art
+# https://ascii.co.uk/art/snowflakes
 snowflake = """
       /\\
  __   \/   __

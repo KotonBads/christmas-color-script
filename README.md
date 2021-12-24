@@ -5,6 +5,9 @@ Displays Christmas-themed ASCII art. This was mainly inspired by DistroTube's [S
 ## ASCII Shadow Text
 ![ASCII Shadow Text](images/ASCII%20Shadow%20Merry%20Christmas.png)
 
+## ASCII No Shadow Text
+![ASCII No Shadow Text](images/ASCII%20Merry%20Christmas.png)
+
 ## Treefetch Tree
 ![Treefetch Tree](images/Treefetch%20Tree.png)
 

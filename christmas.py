@@ -81,7 +81,7 @@ snowflake = """
 merry_christmas = f"{red}{merry}{green}{christmas}"
 tree = f"{bold}{tree}"
 tree1 = f"{green}{bold}{tree1}"
-snowflake = f"{cyan}{snowflake}"
+snowflake = f"{bold}{cyan}{snowflake}"
 
 choices = [merry_christmas, tree, tree1, snowflake]
 print(random.choice(choices), end='')

@@ -22,3 +22,6 @@ Displays Christmas-themed ASCII art. This was mainly inspired by DistroTube's [S
 
 ## Santa
 ![Red Santa](images/Santa.png)
+
+## Santa Face
+![Santa Face](images/Santa%20Face.png)
